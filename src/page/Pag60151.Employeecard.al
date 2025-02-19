@@ -15,7 +15,7 @@ page 60151 "Employee_card"
                 {
                     ApplicationArea = all;
                     Caption = 'No.';
-                    TableRelation = Customer."No.";
+                    
 
                 }
                 field(Name; Rec.Name)

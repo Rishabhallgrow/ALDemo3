@@ -11,6 +11,7 @@ table 60151 "Employee_Master"
         {
             DataClassification = ToBeClassified;
             Caption = 'No.';
+            TableRelation = Customer."No.";
 
         }
         field(2; Name; Text[20])
@@ -22,6 +23,7 @@ table 60151 "Employee_Master"
         field(3; Email; Text[20])
         {
             DataClassification = ToBeClassified;
+
 
         }
     }
